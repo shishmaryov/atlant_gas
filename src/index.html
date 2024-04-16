@@ -4,14 +4,38 @@
 @include('partials/head.html')
 
 <body class="page__body">
-  <div class="site-container">
+  <div class="container">
     @include('partials/header.html')
+  </div>
     <main class="main">
-      
+      <section class="offer">
+        <div class="container offer__container">
+          <div class="offer__column offer__column--1">
+            <div class="offer__perks">
+              <div class="perk offer__perk">
+                <img src="img/svg/perk__icon--time.svg" alt="" class="perk__icon">
+                <p class="text perk__text">В любое время дня и ночи</p>
+              </div>
+              <div class="perk offer_perk">
+                <img src="img/svg/perk__icon--weather.svg" alt="" class="perk__icon">
+                <p class="text perk__text">Вне зависимости от погодных условий</p>
+              </div>
+            </div>
+            <h1 class="title offer__title">Доставим газ за 4 часа</h1>
+            <p class="h3 h3--white offer__descr">в любую точку  Москвы и Московской области</p>
+            <div class="offer__cta">
+              <button class="button cta__button">Заказать доставку газа в газгольдер</button>
+              <span class="text cta__text">Доставка газа всегда по актуальным ценам</span>
+            </div>
+          </div>
+        </div>
+        <div class="offer-img__wrapper">
+            <img src="img/offer__img.png" alt="Доставим газ за 4 часа" class="offer-img__content">
+          </div>
+      </section>
     </main>
     @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
-  </div>
+
 </body>
 
 </html>

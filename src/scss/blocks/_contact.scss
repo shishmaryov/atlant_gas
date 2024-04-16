@@ -1,0 +1,15 @@
+.contact {
+
+  &__phone {
+    display: block;
+    margin-bottom: 5px;
+    color: #F1F1F1;
+  }
+
+  &__question {
+    display: block;
+    color: $accent;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+}

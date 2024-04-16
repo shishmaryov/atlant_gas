@@ -1,11 +1,75 @@
-// базовые подключения
+@import "vendor/normalize.css";
 @import "vars";
 @import "mixins";
 @import "fonts";
 @import "settings";
+
+
+h1, h2, h3, h4 {
+  color: $accent;
+}
+
+p, span {
+  color: $white;
+  margin: 0;
+}
+
+.title {
+  font-family: "Russo one", sans-serif;
+  font-size: 64px;
+  line-height: 63px;
+  color: $accent;
+  margin-top: 0;
+  margin-bottom: 14px;
+  max-width: 599px;
+}
+
+.h2 {
+  font-family: "Russo one", sans-serif;
+  font-size: 36px;
+  color: $white;
+}
+
+.h3 {
+  font-family: "Russo one", sans-serif;
+  font-size: 24px;
+  color: $accent;
+  line-height: 1.2;
+
+  &--white {
+    color: $white;
+  }
+
+}
+
+.text {
+  font-family: "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: $white;
+}
+
+.button {
+  font-family: "Russo one", sans-serif;
+  font-size: 22px;
+  color: $white;
+  cursor: pointer;
+  background: $accent;
+}
+
+
 
 // подключения компонентов страницы
 @import "./components/header";
 @import './components/container';
 
 @import './pages/index-page';
+
+@import "./blocks/logo";
+@import "./blocks/contact";
+@import "./blocks/page";
+@import "./blocks/offer";
+@import "blocks/offer-img";
+@import "./blocks/perk";
+@import "./blocks/cta";
+

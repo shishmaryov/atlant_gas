@@ -1,0 +1,21 @@
+.offer-img {
+
+  &__content {
+    width: max-content;
+
+  }
+
+  &__wrapper {
+    max-width: 1037px;
+    width: calc(100% - 620px);
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+
+  }
+}
+
+
