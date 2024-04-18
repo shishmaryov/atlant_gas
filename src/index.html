@@ -7,67 +7,130 @@
   <div class="container">
     @include('partials/header.html')
   </div>
-    <main class="main">
-      <section class="offer">
-        <div class="container offer__container">
-          <div class="offer__column offer__column--1">
-            <div class="offer__perks">
-              <div class="perk offer__perk">
-                <img src="img/svg/perk__icon--time.svg" alt="" class="perk__icon">
-                <p class="text perk__text">В любое время дня и ночи</p>
-              </div>
-              <div class="perk offer_perk">
-                <img src="img/svg/perk__icon--weather.svg" alt="" class="perk__icon">
-                <p class="text perk__text">Вне зависимости от погодных условий</p>
-              </div>
+  <main class="main">
+    <section class="offer">
+      <div class="container offer__container">
+        <div class="offer__column offer__column--1">
+          <div class="offer__perks">
+            <div class="perk offer__perk">
+              <img src="img/svg/perk__icon--time.svg" alt="" class="perk__icon">
+              <p class="text perk__text">В любое время дня и ночи</p>
             </div>
-            <h1 class="title offer__title">Доставим газ за 4 часа</h1>
-            <p class="h3 h3--white offer__descr">в любую точку  Москвы и Московской области</p>
-            <div class="offer__cta">
-              <button class="button--accent cta__button">Заказать доставку газа в газгольдер</button>
-              <span class="text cta__text">Доставка газа всегда по актуальным ценам</span>
+            <div class="perk offer_perk">
+              <img src="img/svg/perk__icon--weather.svg" alt="" class="perk__icon">
+              <p class="text perk__text">Вне зависимости от погодных условий</p>
             </div>
+          </div>
+          <h1 class="title offer__title">Доставим газ за 4 часа</h1>
+          <p class="h3 h3--white offer__descr">в любую точку Москвы и Московской области</p>
+          <div class="offer__cta">
+            <button class="button--accent cta__button">Заказать доставку газа в газгольдер</button>
+            <span class="text cta__text">Доставка газа всегда по актуальным ценам</span>
           </div>
         </div>
-        <div class="offer-img__wrapper">
-            <img src="img/offer.png" alt="Доставим газ за 4 часа" class="offer-img__content">
+      </div>
+      <div class="offer-img__wrapper">
+        <img src="img/offer.png" alt="Доставим газ за 4 часа" class="offer-img__content">
+      </div>
+    </section>
+    <section class="price">
+      <div class="container">
+        <h2 class="h2 h2--blue price__title">Стоимость газа в ваш газгольдер сегодня</h2>
+        <div class="price__columns">
+          <div class="price__column price__column--text">
+            <h2 class="h2 price__subtitle">Пропан</h2>
+            <h3 class="h3 price__number">от 25 рублей за литр</h3>
+            <p class="text price__description">Физически испарение происходит до -40 градусов, что позволяет
+              использовать его в наших с вами погодных условиях</p>
+            <button class="button price__button">Заказать</button>
           </div>
-      </section>
-      <section class="price">
-        <div class="container">
-          <h2 class="h2 h2--blue price__title">Стоимость газа в ваш газгольдер сегодня</h2>
-          <div class="price__columns">
-            <div class="price__column price__column--text">
-              <h2 class="h2 price__subtitle">Пропан</h2>
-              <h3 class="h3 price__number">от 25 рублей за литр</h3>
-              <p class="text price__description">Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами погодных условиях</p>
-              <button class="button price__button">Заказать</button>
-            </div>
-            <div class="price__column price-photo price__column--photo">
-              <h3 class="price-photo__title">Идеальное соотношение</h3>
-              <div class="price-photo__container">
-                <div class="price-photo__column">
-                  <h2 class="h2 h2--grey price-photo__subtitle">80%</h2>
-                  <h3 class="h3 price-photo__text">пропана</h3>
-                </div>
-                <div class="price-photo__column">
-                  <h2 class="h2 h2--grey price-photo__subtitle">20%</h2>
-                  <h3 class="h3 price-photo__text">бутана</h3>
-                </div>
+          <div class="price__column price-photo price__column--photo">
+            <h3 class="price-photo__title">Идеальное соотношение</h3>
+            <div class="price-photo__container">
+              <div class="price-photo__column">
+                <h2 class="h2 h2--grey price-photo__subtitle">80%</h2>
+                <h3 class="h3 price-photo__text">пропана</h3>
               </div>
-              <img src="img/price-photo.png" alt="Идеальное соотношение" class="price-photo__img">
+              <div class="price-photo__column">
+                <h2 class="h2 h2--grey price-photo__subtitle">20%</h2>
+                <h3 class="h3 price-photo__text">бутана</h3>
+              </div>
             </div>
-            <div class="price__column price__column--text">
-              <h2 class="h2 price__subtitle">Бутан</h2>
-              <h3 class="h3 price__number">от 16 рублей за литр</h3>
-              <p class="text price__description">Испарение Бутана происходит только до 0 градусов и годится для использования в тёплое время года</p>
-              <button class="button price__button">Заказать</button>
-            </div>
+            <img src="img/price-photo.png" alt="Идеальное соотношение" class="price-photo__img">
+          </div>
+          <div class="price__column price__column--text">
+            <h2 class="h2 price__subtitle">Бутан</h2>
+            <h3 class="h3 price__number">от 16 рублей за литр</h3>
+            <p class="text price__description">Испарение Бутана происходит только до 0 градусов и годится для
+              использования в тёплое время года</p>
+            <button class="button price__button">Заказать</button>
           </div>
         </div>
-      </section>
-    </main>
-    @include('partials/footer.html')
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="h2 advantages__title">Преимущества работы с нашей компанией</h2>
+        <div class="advantages__grid">
+          <div class="advantage">
+            <img src="img/keept.png" alt="Экономия на хранилище" class="advantage__img">
+            <h3 class="h3 advantage__title">Экономия на хранилище </h3>
+            <p class="text advantage__text">за счёт собственных цистерн на нашей базе</p>
+          </div>
+          <div class="advantage">
+            <img src="img/track-1.png" alt="Экономия на транспорте" class="advantage__img">
+            <h3 class="h3 advantage__title">Экономия на транспорте</h3>
+            <p class="text advantage__text">более 10 собственный газовозов</p>
+          </div>
+          <div class="advantage">
+            <img src="img/calc-1.png" alt="Поставки напрямую от производителей" class="advantage__img">
+            <h3 class="h3 advantage__title">Поставки напрямую от производителей</h3>
+            <p class="text advantage__text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</p>
+          </div>
+          <div class="advantage">
+            <img src="img/baloon-1.png" alt="Любые объёмы поставки качественного газа" class="advantage__img">
+            <h3 class="h3 advantage__title advantage__title--big">Любые объёмы поставки качественного газа</h3>
+            <p class="text advantage__text">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</p>
+          </div>
+          <div class="advantage">
+            <img src="img/card-1.png" alt="Оплата удобным для вас способом" class="advantage__img">
+            <h3 class="h3 advantage__title">Оплата удобным для вас способом</h3>
+            <p class="text advantage__text">все газовозы оснащены терминалами для оплаты вашего заказа</p>
+          </div>
+          <div class="advantage">
+            <img src="img/oil-1.png" alt="Чистый газ без примесей" class="advantage__img">
+            <h3 class="h3 advantage__title">Чистый газ без примесей</h3>
+            <p class="text advantage__text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</p>
+          </div>
+          <div class="advantage">
+            <img src="img/50m-1.png" alt="Длина заправочных рукавов — 50 метров" class="advantage__img">
+            <h3 class="h3 advantage__title">Длина заправочных рукавов — 50 метров</h3>
+            <p class="text advantage__text">не требуется подъезд автомобиля вплотную к резервуару</p>
+          </div>
+          <div class="advantage">
+            <img src="img/timer-1.png" alt="Доставка сжиженного газа в формате 24/7" class="advantage__img">
+            <h3 class="h3 advantage__title">Доставка сжиженного газа в формате 24/7</h3>
+            <p class="text advantage__text">привезем газ в удобное для вас время или же  по графику</p>
+          </div>
+          <div class="advantage">
+            <img src="img/sert-1.png" alt="Аттестованный персонал" class="advantage__img">
+            <h3 class="h3 advantage__title">Аттестованный персонал</h3>
+            <p class="text advantage__text">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</p>
+          </div>
+        </div>
+        <div class="advantages__banner banner">
+          <div class="banner__column">
+            <img src="img/transp-1.png" alt="доставим за 4 часа" class="banner__img">
+          </div>
+          <div class="banner__column">
+            <h2 class="h2 banner__title">Благодаря нашему собственному автопарку мы можем давать гарантию, что доставим <span class="accent">за 4 часа</span></h2>
+            <button class="button banner__button">Это сильное конкурентное преимущество, которым мы дорожим</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  @include('partials/footer.html')
 
 </body>
 

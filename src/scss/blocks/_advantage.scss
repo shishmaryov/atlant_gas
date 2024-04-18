@@ -1,0 +1,28 @@
+.advantage {
+  max-width: 380px;
+  text-align: center;
+
+  &__img {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 14px;
+    max-width: 306px;
+    display: flex;
+    justify-content: center;
+
+    &--big {
+      max-width: 316px;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+  }
+}

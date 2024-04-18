@@ -104,6 +104,9 @@ p, span {
   }
 }
 
+.accent {
+  color: $accent;
+}
 
 
 // подключения компонентов страницы
@@ -121,4 +124,7 @@ p, span {
 @import "./blocks/cta";
 @import "./blocks/price";
 @import "./blocks/price-photo";
+@import "./blocks/advantages";
+@import "./blocks/advantage";
+@import "./blocks/banner";
 

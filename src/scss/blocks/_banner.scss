@@ -1,0 +1,24 @@
+.banner {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+
+  &__column {
+  }
+
+  &__img {
+  }
+
+  &__title {
+    max-width: 533px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    margin-bottom: 60px;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 0px;
+    padding: 8px 12px;
+  }
+}
