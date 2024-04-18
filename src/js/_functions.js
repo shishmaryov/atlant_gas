@@ -55,12 +55,30 @@ changeVolumeImg('.volume__option--4', './img/facture-volume.png');
 //   placement: 'right'
 // });
 
-// Подключение свайпера
-// import Swiper, { Navigation, Pagination } from 'swiper';
-// Swiper.use([Navigation, Pagination]);
-// const swiper = new Swiper(el, {
-//   slidesPerView: 'auto',
-// });
+
+import Swiper, { Navigation, Pagination } from 'swiper';
+import { document } from "postcss";
+Swiper.use([Navigation, Pagination]);
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 
 // Подключение анимаций по скроллу
 // import AOS from 'aos';

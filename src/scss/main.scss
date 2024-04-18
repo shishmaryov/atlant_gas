@@ -112,6 +112,7 @@ p, span {
 }
 
 
+
 // подключения компонентов страницы
 @import "./components/header";
 @import './components/container';
@@ -131,4 +132,6 @@ p, span {
 @import "./blocks/advantage";
 @import "./blocks/banner";
 @import "./blocks/volume";
-
+@import "./blocks/reviews";
+@import "./blocks/reviews-slider";
+@import "./blocks/swiper";
