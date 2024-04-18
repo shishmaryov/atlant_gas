@@ -93,6 +93,9 @@ p, span {
     border-radius: 11px;
     padding: 15px 0;
     transition: 0.3s;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+
+
 
     &:hover {
       opacity: 0.95; transition: 0.3s;
@@ -127,4 +130,5 @@ p, span {
 @import "./blocks/advantages";
 @import "./blocks/advantage";
 @import "./blocks/banner";
+@import "./blocks/volume";
 

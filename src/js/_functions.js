@@ -3,7 +3,13 @@
 
 // Определение операционной системы на мобильных
 import { mobileCheck } from "./functions/mobile-check";
-console.log(mobileCheck())
+console.log(mobileCheck());
+
+import { changeVolumeImg } from "./functions/changeVolumeImg";
+changeVolumeImg('.volume__option--1', './img/small-volume.png');
+changeVolumeImg('.volume__option--2', './img/middle-volume.png');
+changeVolumeImg('.volume__option--3', './img/big-volume.png');
+changeVolumeImg('.volume__option--4', './img/facture-volume.png');
 
 // Определение ширины экрана
 // import { isMobile, isTablet, isDesktop } from './functions/check-viewport';

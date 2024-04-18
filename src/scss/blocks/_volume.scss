@@ -1,0 +1,59 @@
+.volume {
+  padding-top: 34px;
+  padding-bottom: 64px;
+  background-color: #2D3238;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  &__options {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-bottom: 37px;
+  }
+
+  &__option {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    max-width: 164px;
+    line-height: 1.2;
+    border-radius: 20px;
+    background-color: #54585D;
+    transition: 0.3s;
+
+    &--active {
+      background-color: $accent;
+      transition: 0.3s;
+    }
+  }
+
+  &__option--1 {
+  }
+
+  &__option--2 {
+  }
+
+  &__option--3 {
+    padding: 10px 20px;
+  }
+
+  &__option--4 {
+  }
+
+  &__img {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__button {
+    padding: 29px 68px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+}
