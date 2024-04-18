@@ -1,0 +1,47 @@
+.price-photo {
+
+  &__title {
+    text-align: center;
+    margin-bottom: 13px;
+    color: $grey;
+    font-size: 20px;
+    position: relative;
+
+
+    &::after {
+      content: "";
+    position: absolute;
+    width: 51px;
+    height: 1px;
+    left: calc(50% - 22px);
+    top: 68px;
+
+    border: 1px solid rgba(241, 241, 241, 0.3);
+    transform: rotate(90deg);
+
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 210px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  &__column {
+  }
+
+  &__subtitle {
+    color: $grey;
+  }
+
+  &__text {
+    color: $grey;
+    font-size: 18px;
+  }
+
+  &__img {
+  }
+}

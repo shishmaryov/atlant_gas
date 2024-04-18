@@ -7,11 +7,14 @@
 
 h1, h2, h3, h4 {
   color: $accent;
+  margin: 0;
+  padding: 0;
 }
 
 p, span {
   color: $white;
   margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -28,6 +31,14 @@ p, span {
   font-family: "Russo one", sans-serif;
   font-size: 36px;
   color: $white;
+
+  &--blue {
+    color: $accent;
+  }
+
+  &--grey {
+    color: $white;
+  }
 }
 
 .h3 {
@@ -50,11 +61,47 @@ p, span {
 }
 
 .button {
-  font-family: "Russo one", sans-serif;
-  font-size: 22px;
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
   color: $white;
   cursor: pointer;
   background: $accent;
+  border-radius: 50px;
+  padding: 9px 34px;
+  border: none;
+  transition: 0.3s;
+
+  &:hover {
+    transition: 0.3s;
+    background-color: #2E9BFF;
+    color: #F8F8F8;
+  }
+
+  &:active {
+    transition: 0.3s;
+    background: #0085FF;
+    color: #E2E2E2;
+  }
+
+
+  &--accent {
+    font-family: "Russo one", sans-serif;
+    font-size: 22px;
+    color: $white;
+    background: url('../img/svg/offer__button.svg');
+    border-radius: 11px;
+    padding: 15px 0;
+    transition: 0.3s;
+
+    &:hover {
+      opacity: 0.95; transition: 0.3s;
+    }
+    &:active
+    {opacity: 0.8; transition: 0.3s;
+    }
+
+  }
 }
 
 
@@ -72,4 +119,6 @@ p, span {
 @import "blocks/offer-img";
 @import "./blocks/perk";
 @import "./blocks/cta";
+@import "./blocks/price";
+@import "./blocks/price-photo";
 

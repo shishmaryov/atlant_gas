@@ -1,0 +1,53 @@
+.price {
+  background-color: #2D3238;
+  padding-top: 46px;
+  padding-bottom: 44px;
+  position: relative;
+
+  &::after {
+    content: url("../img/svg/price-arrow.svg");
+    position: absolute;
+    width: 99px;
+    height: 64px;
+    left: calc(50% - 49.5px);
+    bottom: -40px;
+  }
+
+
+
+  &__title {
+    text-align: center;
+    margin-bottom: 49px;
+  }
+
+  &__columns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__column {
+  }
+
+  &__column--text {
+    max-width: 260px;
+    padding-top: 3px;
+  }
+
+  &__subtitle {
+  }
+
+  &__number {
+    margin-bottom: 21px;
+
+  }
+
+  &__description {
+    margin-bottom: 28px;
+  }
+
+  &__button {
+  }
+
+  &__column--photo {
+  }
+}
