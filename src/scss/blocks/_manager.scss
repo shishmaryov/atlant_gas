@@ -1,0 +1,25 @@
+.manager {
+  position: relative;
+
+  &__info {
+    background-color: $accent;
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: block;
+    width: max-content;
+    position: absolute;
+    bottom: 55px;
+    left: -75px;
+  }
+
+  &__name {
+    display: block;
+    font-family: "Russo One", sans-serif;
+    font-size: 24px;
+  }
+
+  &__prof {
+    display: block;
+    font-weight: 600;
+  }
+}

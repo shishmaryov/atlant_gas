@@ -1,0 +1,50 @@
+.office {
+
+  &__wrapper {
+    background: #F1F1F1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+
+  }
+
+  &_header {
+    padding-bottom: 21px;
+    border-bottom: 1px solid #C6C9CC;
+
+    .office__text {
+      text-transform: uppercase;
+    }
+  }
+
+  &__column {
+
+    &--text {
+      padding: 40px;
+    }
+  }
+
+  &__title {
+    max-width: 380px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    color: #1B2639;
+    font-size: 18px;
+  }
+
+  &__info {
+    margin-bottom: 45px;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+}

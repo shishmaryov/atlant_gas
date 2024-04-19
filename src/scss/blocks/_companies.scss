@@ -1,0 +1,25 @@
+.companies {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  &__wrapper {
+    width: 166px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: $white;
+    border-radius: 20px;
+  }
+
+  &__img {
+    text-align: center;
+    width:max-content;
+    height: max-content;
+  }
+  margin-bottom: 34px;
+}

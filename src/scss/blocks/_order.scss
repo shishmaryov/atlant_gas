@@ -1,0 +1,52 @@
+.order {
+  padding-top: 55px;
+  margin-bottom: 34px;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__column {
+    max-width: 567px;
+  }
+
+  &__form {
+    display: block;
+
+    input,textarea {
+      display: block;
+      padding: 18px 22px;
+      border-radius: 10px;
+      width: 402px;
+
+      &::placeholder {
+        text-transform: uppercase;
+        color: #DEDEDE;
+      }
+    }
+
+    input {
+      margin-bottom: 24px;
+    }
+
+    textarea {
+      margin-bottom: 24px;
+      max-height: 112px;
+      height: 100%;
+    }
+  }
+
+  &__button {
+    padding: 11px 40px;
+  }
+
+  &__img {
+    border-radius: 40px;
+  }
+}
