@@ -7,3 +7,25 @@
   height: 18px;
   border-radius: 20px;
 }
+
+.swiper-button-prev {
+  left: calc(50% - 507px);
+  width: 47px;
+  height: 72px;
+  &::after {
+    width: 47px;
+    height: 72px;
+    content: url('../img/svg/slider-button-prev.svg');
+  }
+}
+
+.swiper-button-next {
+  right: calc(50% - 507px);
+  width: 47px;
+  height: 72px;
+  &::after {
+    width: 47px;
+    height: 72px;
+    content: url('../img/svg/slider-button-next.svg');
+  }
+}
