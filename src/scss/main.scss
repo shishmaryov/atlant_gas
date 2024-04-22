@@ -113,9 +113,9 @@ p, span {
 
 
 
-// подключения компонентов страницы
 @import "./components/header";
 @import './components/container';
+@import "./components/footer";
 
 @import './pages/index-page';
 
