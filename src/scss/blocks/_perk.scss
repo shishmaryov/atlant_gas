@@ -1,5 +1,9 @@
 .perk {
 
+  @media(max-width: 1024px) {
+    text-align: center;
+  }
+
   &__icon {
   }
 

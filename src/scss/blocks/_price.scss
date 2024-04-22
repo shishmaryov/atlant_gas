@@ -23,9 +23,21 @@
   &__columns {
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 1024px) {
+      flex-direction: column;
+      text-align: center;
+      vertical-align: middle;
+      align-items: center;
+      row-gap: 32px;
+
+    }
   }
 
   &__column {
+    @media(max-width: 1024px) {
+      justify-content: center;
+    }
   }
 
   &__column--text {

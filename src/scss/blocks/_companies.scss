@@ -23,3 +23,30 @@
   }
   margin-bottom: 34px;
 }
+
+@media(max-width: 1024px) {
+  .companies {
+
+    &__wrapper {
+      margin: 0 auto;
+    }
+
+    .container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 20px;
+      justify-content: center;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .companies {
+    .container {
+      max-width: max-content;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+  }
+}

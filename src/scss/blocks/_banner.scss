@@ -3,10 +3,19 @@
   grid-template-columns: 50% 50%;
   position: relative;
 
+  @media(max-width: 1024px) {
+    grid-template-columns: 0% 100%;
+    text-align: center;
+  }
+
   &__column {
+    margin: 0 auto;
   }
 
   &__img {
+    @media(max-width: 1024px) {
+      display: none;
+    }
   }
 
   &__title {

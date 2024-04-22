@@ -5,3 +5,12 @@
 }
 .logo--header {
 }
+
+@media(max-width: 1024px) {
+  .logo {
+
+    &__container {
+      margin-bottom: 20px;
+    }
+}
+}

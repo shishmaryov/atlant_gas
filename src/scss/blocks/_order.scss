@@ -4,12 +4,20 @@
 
   &__title {
     margin-bottom: 50px;
+
+    @media(max-width: 1024px) {
+      text-align: center;
+    }
   }
 
   &__columns {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width: 1024px) {
+      flex-direction: column;
+    }
   }
 
   &__column {
@@ -18,6 +26,11 @@
 
   &__form {
     display: block;
+
+    @media(max-width: 1024px) {
+      margin: 0 auto;
+      width: max-content;
+    }
 
     input,textarea {
       display: block;
@@ -44,6 +57,10 @@
 
   &__button {
     padding: 11px 40px;
+
+    @media(max-width: 1024px) {
+      margin: 0 auto;
+    }
   }
 
   &__img {

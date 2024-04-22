@@ -5,6 +5,11 @@
   &__container {
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 1024px) {
+      justify-content: center;
+    }
+
   }
 
   &_perk {
@@ -31,9 +36,10 @@
   }
 
   &__descr {
+    margin-bottom: 40px;
+
     @media(min-width: 1024px) {
       max-width: 298px;
-      margin-bottom: 40px;
     }
   }
 
@@ -42,14 +48,35 @@
     text-align: center;
     max-width: max-content;
 
+    @media(max-width: 1024px) {
+      margin: 0 auto;
+    }
+
     .cta__button {
         max-width: 395px;
         display: block;
         margin-bottom: 13px;
+
+        @media(max-width: 1024px) {
+          max-width: 350px;
+        }
     }
 
     .cta__text {
       display: block;
     }
   }
+}
+
+@media(max-width: 1024px) {
+  .offer {
+    &__title {
+      text-align: center;
+    }
+    &__descr {
+      text-align: center;
+    }
+  }
+
+
 }
